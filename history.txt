@@ -1,0 +1,500 @@
+   34  git review
+   35  cordova build ios
+   36  sudo launchctl load -w /Library/LaunchAgents/com.jamfsoftware.jamf.agent.plist
+   37  sudo jamf RemoveFramework
+   38  jamf
+   39  sodu jamf policy
+   40  dudo jamf policy
+   41  sudo jamf policy
+   42  jamf
+   43  launchctl list
+   44  sudo jamf RemoveFramework
+   45  md5 /Users/moshanpi/Desktop/com.mcafee.security.safefamily.p12 
+   46  file /Users/moshanpi/Desktop/my\ ipa/SafeFamily-InHouse-1.5.0.479-int-Release.ipa 
+   47  lipo info /Users/moshanpi/Desktop/my\ ipa/SafeFamily-InHouse-1.5.0.479-int-Release.ipa 
+   48  cd /Users/moshanpi/Desktop/my\ ipa/Payload/SafeFamily-InHouse.app/Frameworks/IntelSecurityAnalyticsValidatorPlugin.framework 
+   49  cd ..
+   50  pwd
+   51  file *
+   52  file *.framework
+   53  file /Users/moshanpi/Desktop/my\ ipa/Payload/SafeFamily-InHouse.app/Frameworks/IntelSecurityAnalyticsFramework.framework 
+   54  file /Users/moshanpi/Desktop/my\ ipa/Payload/SafeFamily-InHouse.app/Frameworks/IntelSecurityAnalyticsConfigurationJson.framework 
+   55  file --help
+   56  file
+   57  pwd
+   58  file *
+   59  file /Users/moshanpi/Desktop/my\ ipa/Payload/SafeFamily-InHouse.app/Frameworks/MCSP_iOS.framework 
+   60  file /Users/moshanpi/Desktop/my\ ipa/Payload/SafeFamily-InHouse.app/Frameworks/SafeFamily.framework/SafeFamily 
+   61  file /Users/moshanpi/Desktop/my\ ipa/Payload/SafeFamily-InHouse.app/Frameworks/libswiftCoreGraphics.dylib 
+   62  file /Users/moshanpi/Desktop/my\ ipa/Payload/SafeFamily-InHouse.app/Frameworks/IntelSecurityAnalyticsValidatorPlugin.framework 
+   63  lipo -info /Users/moshanpi/Desktop/my\ ipa/Payload/SafeFamily-InHouse.app/Frameworks/IntelSecurityAnalytics.framework 
+   64  lipo -info /Users/moshanpi/Desktop/my\ ipa/Payload/SafeFamily-InHouse.app/Frameworks/libswiftCoreGraphics.dylib 
+   65  lipo /Users/moshanpi/Documents/code/miramar-front-end/platforms/ios/SafeFamily/Plugins/com.mcafee.safefamily/IntelSecurityAnalytics.framework 
+   66  file /Users/moshanpi/Documents/code/miramar-front-end/platforms/ios/SafeFamily/Plugins/com.mcafee.safefamily/IntelSecurityAnalytics.framework 
+   67  file /Users/moshanpi/Documents/code/miramar-front-end/platforms/ios/SafeFamily/Plugins/com.mcafee.safefamily/IntelSecurityAnalytics.framework/IntelSecurityAnalytics 
+   68  file /Users/moshanpi/Downloads/SafeFamily-1.5.0.1149/Payload/SafeFamily.app/SafeFamily 
+   69  file /Users/moshanpi/Downloads/SafeFamily-1.5.0.1149/Payload/SafeFamily.app/Frameworks/IntelSecurityAnalytics.framework/IntelSecurityAnalytics 
+   70  file /Users/moshanpi/Downloads/SafeFamily-1.5.0.1149/Payload/SafeFamily.app/Frameworks/IntelSecurityAnalyticsConfigurationJson.framework/IntelSecurityAnalyticsConfigurationJson 
+   71  file /Users/moshanpi/Downloads/SafeFamily-1.5.0.1149/Payload/SafeFamily.app/Frameworks/IntelSecurityAnalyticsConfigurationJson.framework/IntelSecurityAnalyticsConfigurationJson | grep 'for architecture'
+   72  file /Users/moshanpi/Downloads/SafeFamily-1.5.0.1149/Payload/SafeFamily.app/Frameworks/IntelSecurityAnalyticsFramework.framework/IntelSecurityAnalyticsFramework 
+   73  file /Users/moshanpi/Downloads/SafeFamily-1.5.0.1149/Payload/SafeFamily.app/Frameworks/IntelSecurityAnalyticsGoogleAnalyticsPlugin.framework/IntelSecurityAnalyticsGoogleAnalyticsPlugin 
+   74  file /Users/moshanpi/Downloads/SafeFamily-1.5.0.1149/Payload/SafeFamily.app/Frameworks/IntelSecurityAnalyticsValidatorPlugin.framework/IntelSecurityAnalyticsValidatorPlugin 
+   75  file /Users/moshanpi/Downloads/SafeFamily-1.5.0.1149/Payload/SafeFamily.app/Frameworks/SafeFamily.framework/SafeFamily 
+   76  lipo -info /Users/moshanpi/Downloads/SafeFamily-1.5.0.1149/Payload/SafeFamily.app/SafeFamily 
+   77  ls
+   78  cm *.framework /Users/moshanpi/Desktop/framework/test 
+   79  cp *.framework /Users/moshanpi/Desktop/framework/test 
+   80  cp -rf *.framework /Users/moshanpi/Desktop/framework/test 
+   81  /Users/moshanpi/Desktop/framework/test/IntelSecurityAnalytics.framework/IntelSecurityAnalytics /Users/moshanpi/Desktop/framework/test/IntelSecurityAnalyticsConfigurationJson.framework/IntelSecurityAnalyticsConfigurationJson /Users/moshanpi/Desktop/framework/test/IntelSecurityAnalyticsFramework.framework/IntelSecurityAnalyticsFramework /Users/moshanpi/Desktop/framework/test/IntelSecurityAnalyticsGoogleAnalyticsPlugin.framework/IntelSecurityAnalyticsGoogleAnalyticsPlugin /Users/moshanpi/Desktop/framework/test/IntelSecurityAnalyticsValidatorPlugin.framework/IntelSecurityAnalyticsValidatorPlugin /Users/moshanpi/Desktop/framework/test/MCSP_iOS.framework/MCSP_iOS /Users/moshanpi/Desktop/framework/test/SafeFamily.framework/SafeFamily 
+   82  /Users/moshanpi/Desktop/framework/test/IntelSecurityAnalytics.framework/IntelSecurityAnalytics /Users/moshanpi/Desktop/framework/test/IntelSecurityAnalyticsConfigurationJson.framework/IntelSecurityAnalyticsConfigurationJson /Users/moshanpi/Desktop/framework/test/IntelSecurityAnalyticsFramework.framework/IntelSecurityAnalyticsFramework /Users/moshanpi/Desktop/framework/test/IntelSecurityAnalyticsGoogleAnalyticsPlugin.framework/IntelSecurityAnalyticsGoogleAnalyticsPlugin /Users/moshanpi/Desktop/framework/test/IntelSecurityAnalyticsValidatorPlugin.framework/IntelSecurityAnalyticsValidatorPlugin /Users/moshanpi/Desktop/framework/test/MCSP_iOS.framework/MCSP_iOS /Users/moshanpi/Desktop/framework/test/SafeFamily.framework/SafeFamily 
+   83  /Users/moshanpi/Desktop/framework/test/IntelSecurityAnalytics.framework/IntelSecurityAnalytics /Users/moshanpi/Desktop/framework/test/IntelSecurityAnalyticsConfigurationJson.framework/IntelSecurityAnalyticsConfigurationJson /Users/moshanpi/Desktop/framework/test/IntelSecurityAnalyticsFramework.framework/IntelSecurityAnalyticsFramework /Users/moshanpi/Desktop/framework/test/IntelSecurityAnalyticsGoogleAnalyticsPlugin.framework/IntelSecurityAnalyticsGoogleAnalyticsPlugin /Users/moshanpi/Desktop/framework/test/IntelSecurityAnalyticsValidatorPlugin.framework/IntelSecurityAnalyticsValidatorPlugin /Users/moshanpi/Desktop/framework/test/MCSP_iOS.framework/MCSP_iOS /Users/moshanpi/Desktop/framework/test/SafeFamily.framework/SafeFamily 
+   84  /Users/moshanpi/Desktop/framework/test/IntelSecurityAnalytics.framework/IntelSecurityAnalytics /Users/moshanpi/Desktop/framework/test/IntelSecurityAnalyticsConfigurationJson.framework/IntelSecurityAnalyticsConfigurationJson /Users/moshanpi/Desktop/framework/test/IntelSecurityAnalyticsFramework.framework/IntelSecurityAnalyticsFramework /Users/moshanpi/Desktop/framework/test/IntelSecurityAnalyticsGoogleAnalyticsPlugin.framework/IntelSecurityAnalyticsGoogleAnalyticsPlugin /Users/moshanpi/Desktop/framework/test/IntelSecurityAnalyticsValidatorPlugin.framework/IntelSecurityAnalyticsValidatorPlugin /Users/moshanpi/Desktop/framework/test/MCSP_iOS.framework/MCSP_iOS /Users/moshanpi/Desktop/framework/test/SafeFamily.framework/SafeFamily 
+   85  cd /Users/moshanpi/Desktop/framework/
+   86  ls
+   87  file *
+   88  file * >> framework-info.txt
+   89  file /Users/moshanpi/Downloads/SafeFamily-1.5.0.1149/Payload/SafeFamily.app/SafeFamily 
+   90  lipo -info *
+   91  pwd
+   92  ls
+   93  lipo -info IntelSecurityAnalyticsValidatorPlugin
+   94  lipo -info * >>info.txt
+   95  lipo -info * >>info.txt
+   96  ls
+   97  file /Users/moshanpi/Downloads/SafeFamily-1.5.0.1149/Payload/SafeFamily.app/SafeFamily 
+   98  brew install watchman
+   99  sudo brew install watchman
+  100  pwd
+  101  whoami
+  102  npm install -g react-native-cli
+  103  sudo npm install -g react-native-cli
+  104  pwd
+  105  cd 
+  106  cd /Users/moshanpi/Documents/msp/Demo 
+  107  ls
+  108  cd /Users/moshanpi/Documents/msp/Demo 
+  109  pwd
+  110  react-native init AwesomeProject
+  111  npm list
+  112  npm
+  113  npm
+  114  npm -v
+  115  curl -0 -L http://npmjs.org/install.sh | sudo sh
+  116  npm -v
+  117  nvm list
+  118  npm list
+  119  nvm list
+  120  npm ls -g --depth=0
+  121  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
+  122  nvm
+  123  nvm
+  124  nvm
+  125  nvm
+  126  brew install nvm
+  127  sudo brew install nvm
+  128  nvm
+  129  sudo brew install nvm
+  130  nvm
+  131  brew uninstall nvm
+  132  sudo brew uninstall nvm
+  133  sudo brew install nvm
+  134  nvm
+  135  sudo brew uninstall nvm
+  136  nvm
+  137  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
+  138  cd~
+  139  cd ~
+  140  ls
+  141  mkdir ~/.nvm
+  142  ls
+  143  ls .*
+  144  pwd
+  145  cd .nvm
+  146  pwd
+  147  ls
+  148  cd 
+  149  cd ..
+  150  pwd
+  151  ls
+  152  cd moshanpi/
+  153  vi .bash_profile 
+  154  npm install -g yarn react-native-cli
+  155  npm install -g react-native-cli
+  156  sudo npm install -g react-native-cli
+  157  react-native
+  158  react-native init AwesomeProject
+  159  node -v
+  160  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.2/install.sh | bash
+  161  cd /Users/
+  162  ls
+  163  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.2/install.sh
+  164  nv
+  165  nvm
+  166  ls
+  167  cd ~
+  168  ls
+  169  cd .nvm
+  170  ls
+  171  nvm
+  172  nvm.sh
+  173  . nvm
+  174  . nvm.sh
+  175  ls
+  176  ./nvm.sh
+  177  nvm -v
+  178  nvm
+  179  nvm
+  180  nvm -v
+  181  nvm -version
+  182  brew uninstall nvm
+  183  sudo brew uninstall nvm
+  184  pwd
+  185  ls
+  186  cd /Users/moshanpi/Documents/msp/software 
+  187  git clone https://github.com/creationix/nvm.git
+  188  ls
+  189  cd nvm
+  190  ls
+  191  pwd
+  192  vi ~/.bash_profile
+  193  nvm
+  194  nvm
+  195  vi ~/.bash_profile
+  196  nvm
+  197  nvm --version
+  198  nvm list
+  199  node -v
+  200  nvm install v2.10.1
+  201  nvm ls-remote
+  202  nvm install iojs-v2.1.0
+  203  nvm
+  204  nvm --version
+  205  nvm list
+  206  node -v
+  207  nvm install v2.10.1
+  208  nvm ls-remote
+  209  nvm install iojs-v2.1.0
+  210  nvm
+  211  nvm --version
+  212  nvm list
+  213  node -v
+  214  nvm install v2.10.1
+  215  nvm ls-remote
+  216  nvm install iojs-v2.1.0
+  217  nvm
+  218  nvm --version
+  219  nvm list
+  220  node -v
+  221  nvm install v2.10.1
+  222  nvm ls-remote
+  223  nvm install iojs-v2.1.0
+  224  nvm
+  225  nvm --version
+  226  nvm list
+  227  node -v
+  228  nvm install v2.10.1
+  229  nvm ls-remote
+  230  nvm install iojs-v2.1.0
+  231  nvm
+  232  nvm --version
+  233  nvm list
+  234  node -v
+  235  nvm install v2.10.1
+  236  nvm ls-remote
+  237  nvm install iojs-v2.1.0
+  238  npm install -g react-native-cli
+  239  sudo npm install -g react-native-cli
+  240  node -v
+  241  curl -0 -L http://npmjs.org/install.sh | sudo sh
+  242  nvm ls
+  243  nvm install v4.1.0
+  244  cd /usr/local/lib
+  245  ls
+  246  cd react-native-cli@1.3.0 
+  247  cd node_modules/
+  248  ls
+  249  cd react-native-cli/
+  250  ls
+  251  cd node_modules/
+  252  ls
+  253  cd ..
+  254  ls
+  255  cd ..
+  256  ls
+  257  . react-native-cli/
+  258  sudo npm install -g react-native-cli
+  259  sudo npm install -g react-native-cli
+  260  sudo npm install -g react-native-cli
+  261  react-native-cli
+  262  react-native-cli
+  263  react-native-cli
+  264  react-native-cli
+  265  react-native
+  266  node -v
+  267  node -v
+  268  which node
+  269  nvm install stable
+  270  node -v
+  271  react-native
+  272  ls
+  273  pwd
+  274  cd /Users/moshanpi/Documents/msp/Demo 
+  275  react-native init reactTest
+  276  nvm list
+  277  npm install node@0.12.4 -g
+  278  node -v
+  279  nvm list
+  280  node -v
+  281  nvm ls-remote
+  282  cd ~/.nvm
+  283  ls
+  284  cd /Users/moshanpi/
+  285  ls
+  286  cd .nvm
+  287  ls
+  288  /Users/moshanpi/Documents/msp/Demo/AwesomeProject/node_modules/react-native/packager/launchPackager.command ; exit;
+  289  /Users/moshanpi/Documents/msp/Demo/AwesomeProject/node_modules/react-native/packager/launchPackager.command ; exit;
+  290  /Users/moshanpi/Documents/msp/Demo/AwesomeProject/node_modules/react-native/packager/launchPackager.command ; exit;
+  291  /Users/moshanpi/Documents/msp/Demo/AwesomeProject/node_modules/react-native/packager/launchPackager.command ; exit;
+  292  node -v
+  293  . run_browser 
+  294  nvm install v2.10.1
+  295  nvm install v0.12.4
+  296  node -v
+  297  pwd
+  298  cordova run browser
+  299  cordova build ios
+  300  nvm list
+  301  nvm use 7.2.1
+  302  node -v
+  303  cd /Users/moshanpi/Documents/msp/Demo 
+  304  ls
+  305  rm reactTest/*
+  306  ls
+  307  rm -rf reactTest/
+  308  ls
+  309  react-native init AwesomeProject
+  310  node -v
+  311  npm install -g yarn
+  312  react-native init AwesomeProject
+  313  open .
+  314  react-native init AwesomeProject
+  315  react-native init AwesomeProject
+  316  pwd
+  317  cd AwesomeProject/
+  318  react-native run-ios
+  319  open 
+  320  open .
+  321  nvm list
+  322  nvm use 7.2.1
+  323  react-native run-ios
+  324  react-native run-ios
+  325  react-native run-ios
+  326  pwd
+  327  cd ..
+  328  pwd
+  329  cd ../..
+  330  pwd
+  331  cd ..
+  332  . run_browser 
+  333  nvm use 0.12.4
+  334  cordova run browser
+  335  node
+  336  node -v
+  337  nvm list
+  338  react-native run-ios
+  339  pwd
+  340  node -v
+  341  npm install express -g
+  342  npm install express -generator -g
+  343  express -v
+  344  express
+  345  cd /Users/moshanpi/Documents/msp/software/nvm/versions/node/v7.2.1/lib
+  346  ls
+  347  cd node_modules/
+  348  ls
+  349  express -v
+  350  ls
+  351  cd express/
+  352  ls
+  353  npm install express --save
+  354  npm install express --save
+  355  npm install express --save
+  356  express
+  357  ls
+  358  cd ..
+  359  ls
+  360  express
+  361  cd express/
+  362  ls
+  363  cd ..
+  364  cd ..
+  365  ls
+  366  pwd
+  367  npm install express --save
+  368  express
+  369  express
+  370  npm install express --save
+  371  npm install express -g
+  372  express
+  373  express
+  374  pwd
+  375  cd /Users/moshanpi/Documents/msp/software/nvm/versions/node/v7.2.1/lib
+  376  ls
+  377  cd  dtrace/
+  378  ls
+  379  cd ..
+  380  pwd
+  381  ls
+  382  cd node_modules/
+  383  ls
+  384  npm
+  385  npm -v
+  386  ls
+  387  express
+  388  ./express/
+  389  cd /Users/moshanpi/Documents/msp/Demo 
+  390  pwd
+  391  mkdir express
+  392  cd express/
+  393  ls
+  394  npm init
+  395  ls
+  396  ls
+  397  npm install express --save
+  398  express
+  399  /Users/moshanpi/Documents/msp/Demo/AwesomeProject/node_modules/react-native/packager/launchPackager.command ; exit;
+  400  cd /Users/moshanpi/Documents/code/miramar\-front\-end
+  401  git review
+  402  cordova platform rm ios
+  403  cordova platform add ../miramar-cordova-ios/
+  404  pwd
+  405  node -v
+  406  node use 0.12.4
+  407  nvm use 0.12.4
+  408  cordova platform add ../miramar-cordova-ios/
+  409  cordova build ios
+  410  cordova platform rm ios
+  411  cordova platform
+  412  cordova platform add ../miramar-cordova-ios/
+  413  cordova build ios
+  414  cordova build ios
+  415  node -v
+  416  nvm use 0.12.4
+  417  . run_browser 
+  418  . run_browser 
+  419  cordova run browser
+  420  cordova run browser
+  421  cordova run browser
+  422  cordova run browser
+  423  cordova run browser
+  424  cordova run browser
+  425  cordova run browser
+  426  cordova build ios
+  427  cordova build ios
+  428  node -v
+  429  . goToFrontEnd 
+  430  cordova build ios
+  431  node -v
+  432  nvm use 0.12.4
+  433  cordova build ios
+  434  ls
+  435  cd /Users/moshanpi/Documents/msp/Demo 
+  436  ls
+  437  cd express/
+  438  ls
+  439  node -v
+  440  npm install express --save
+  441  ls
+  442  rm *
+  443  ls
+  444  npm install express --save
+  445  ls
+  446  pwd
+  447  sudo npm install express -g
+  448  express
+  449  express -V
+  450  cd /Users/moshanpi/Documents/msp/software/nvm/versions/node/v7.2.1/lib
+  451  ls
+  452  cd node_modules/
+  453  ls
+  454  express
+  455  nvm use 0.12.4
+  456  sudo npm install express -g
+  457  express
+  458  cd /Users/moshanpi/Documents/msp/software/nvm/versions/node/v0.12.4/lib/node_modules/express
+  459  pwd
+  460  cd ..
+  461  pwd
+  462  cd ..
+  463  pwd
+  464  cd ..
+  465  pwd
+  466  cd ..
+  467  pwd
+  468  ls
+  469  cd v0.12.4
+  470  ls
+  471  cd lib/
+  472  ls
+  473  cd node_modules/
+  474  ls
+  475  express
+  476  cd express/
+  477  ls
+  478  cd node_modules/
+  479  ls
+  480  cd /Users/moshanpi/Documents/msp/Demo 
+  481  ls
+  482  cd express/
+  483  ls
+  484  ls
+  485  npm install express
+  486  ls
+  487  pwd
+  488  ls
+  489  ls
+  490  express
+  491  express app
+  492  sudo npm install express -g
+  493  express -v
+  494  express 
+  495  npm install express  -g 
+  496  express -V
+  497  nvm ls
+  498  nvm use 7
+  499  npm install express  -g 
+  500  npm install -g nodejs@5.7.0
+  501  npm install express  -g 
+  502  sudo npm install express  -g 
+  503  express -V
+  504  sudo npm install nodejs@5.7.0 -g
+  505  sudo npm install node@5.7.0 -g
+  506  sudo npm install v5.7.0 -g
+  507  sudo npm install V5.7.0 -g
+  508  sudo npm install express-generator  -g
+  509  express -V
+  510  cd /Users/moshanpi/Documents/msp/Demo/express 
+  511  express -e test
+  512  cd test && npm install
+  513  DEBUG=test:* npm start
+  514  DEBUG=test:* npm start
+  515  DEBUG=test:* npm start
+  516  node ./bin/www
+  517  cd /Users/moshanpi/Documents/msp/Demo/express/MyWebsite 
+  518  DEBUG=test:* npm start
+  519  ls
+  520  pwd
+  521  pwd
+  522  ls
+  523  git init
+  524  echo "run DEBUG=test:* npm start "
+  525  ls
+  526  echo "run DEBUG=test:* npm start " >> README.md
+  527  ls
+  528  git add *
+  529  git commit -m "first commit"
+  530  git remote add origin https://github.com/momirror/MyWebsite.git
+  531  git push -u origin master
+  532  DEBUG=test:* npm start
+  533  history >> history.txt
