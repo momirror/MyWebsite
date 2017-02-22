@@ -1,0 +1,23 @@
+/*
+C:\Users\msp\Desktop\code\MyWebsite\css>sass --watch main.scss:main.css
+*/
+body{
+  padding: 25px;
+  font-size: 18px;
+  color: #101010;
+}
+
+p{
+    color: black;
+}
+
+.divide{
+  height: 1px;
+  width: 100%;
+  color: grey;
+}
+.resume {
+    .header {
+      background-color: red;
+    }
+  }
