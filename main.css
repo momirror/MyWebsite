@@ -1,5 +1,5 @@
 /*
-C:\Users\msp\Desktop\code\MyWebsite>sass --watch css/main.scss:css/main.css
+C:\Users\msp\Desktop\code\MyWebsite>sass --watch css/main.scss:main.css
 */
 body {
   padding: 25px;
@@ -18,13 +18,9 @@ p {
 .resume .header {
   background-color: red; }
 .resume .half-section {
-  width: 50%;
-  float: left;
-  padding: 20px; }
-.resume .right-section {
-  right: 0; }
+  width: 50%; }
 
-.section-container {
-  overflow: hidden; }
+.test {
+  background: red; }
 
 /*# sourceMappingURL=main.css.map */

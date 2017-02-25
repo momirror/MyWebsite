@@ -1,24 +1,43 @@
 /*
-C:\Users\msp\Desktop\code\MyWebsite\css>sass --watch main.scss:main.css
+C:\Users\msp\Desktop\code\MyWebsite>sass --watch css/main.scss:css/main.css
 */
-body{
+body {
   padding: 25px;
   font-size: 18px;
   color: #101010;
 }
 
-p{
-    color: black;
+p {
+  color: black;
 }
 
-.divide{
+.divide {
   height: 1px;
   width: 100%;
   background-color: grey;
   margin: 20px 0;
 }
+
 .resume {
-    .header {
-      background-color: red;
-    }
+  .header {
+    background-color: red;
   }
+
+  .half-section {
+    width: 50%;
+    float: left;
+    padding: 20px;
+  }
+
+  .left-section{
+
+  }
+
+  .right-section{
+    right:0;
+  }
+}
+
+.section-container{
+  overflow: hidden;
+}
