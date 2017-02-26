@@ -6,3 +6,6 @@
 .idea/libraries/test_node_modules.xml
 模板/.idea/
 .idea/
+.sass-cache/
+css/main.css.map
+css/main.css

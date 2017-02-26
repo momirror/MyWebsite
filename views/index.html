@@ -7,39 +7,141 @@
     <title>模板</title>
     <link rel="stylesheet" href="../thirdParty/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/main.css">
+
   </head>
   <body>
 
+
+  <div class="header">
+      <nav>
+          <ul>
+              <li class="nav-item"><a href="#person-info">个人信息</a></li>
+              <li class="nav-item"><a href="#skill">技能简介</a></li>
+              <li class="nav-item"><a href="#education">教育信息</a></li>
+              <li class="nav-item"><a href="#work-experience">工作经验</a></li>
+              <div style="clear: both;"></div>
+          </ul>
+      </nav>
+
+  </div>
+
   <div class="resume">
-    <header>
-      Hi, I'm xxx.
-    </header>
-<div >
-    <div class="divide"></div>
+<div id="person-info">
+    <div class="content-text">
+    <h2>个人信息</h2>
+        <div class="divide"></div>
     <div class="half-section left-section">
       <h3>姓名:张小明</h3>
-      <h3>年龄：1000</h3>
+      <h3>年龄:1000</h3>
       <h3>学历:本科</h3>
-      <h3>住址：深圳市南山区西丽新屋村</h3>
+      <h3>住址:深圳市南山区西丽新屋村</h3>
     </div>
     <div class="half-section right-section">
-        <h3>邮箱：471488376@qq.com</h3>
+        <h3>邮箱:471488376@qq.com</h3>
         <h3>手机:13249449911</h3>
         <h3>婚否:已婚</h3>
         <h3>籍贯:广西壮族自治区贵港市平南县上渡镇</h3>
       </div>
       <div style="clear:both;"></div>
+        </div>
 </div>
 
-    <div class="divide"></div>
-    <h2>教育经历</h2>
-    <div class="divide"></div>
-    <h2>技能</h2>
-    <div class="divide"></div>
-    <h2>项目经验</h2>
+      <div id="skill">
+      <h2 class="title">简介</h2>
+      <div class="content-text">
+         <div class="conten-item">1. 计算机专业，扎实的 C/C++ 基础，具备良好的面向对象设计思想，熟悉常用的数据结构和算法。</div>
+         <div class="conten-item">2.熟练使用objective-c语言，熟悉MacOS操作系统和XCode开发环境，了解json，xml文件，熟悉MVC设计模式，学习过coco2d,并用coco2d做了一个坦克大战。对box2d物理引擎、网络编程也比较熟悉。能熟练使用工具来进行内存分析，解决内存问题。</div>
+         <div class="conten-item">3. 英语6级，具有良好的英语阅读能力，熟练使用SQL语句，能熟练操作linux系统，学习了Linux下的C语言编程，如多进程，多线程，makefile,shell脚本，socket套接字通信等</div>
+         <div class="conten-item">4.对OpenGL ES 2.0有一定了解，可以根据项目需要，查找资料，实现所需功能。</div>
+         <div class="conten-item">5.为人沉稳，性格温和。喜欢不断地学习新知识来充实自己，天生的技术宅男。</div>
+      </div>
+      </div>
 
+      <div id="education">
+          <h2 class="title">教育信息</h2>
+          <div class="content-text">
+              <div class="conten-item">毕业院校：西南民族大学（全日制本科）</div>
+              <div class="conten-item">专业：计算机科学与技术</div>
+          </div>
+      </div>
+
+      <div id="work-experience">
+    <h2 class="title">工作经验</h2>
+      <div class="content-text">
+      <div class="conten-item-title"> ☆ 2014年10月-2015年12月</div>
+      <div class="conten-item">
+      在纽曼深圳公司（深圳市啊哩咕哩信息技术有限公司）担任iOS开发工程师，单独负责<a href="https://itunes.apple.com/cn/app/a-li-gu-li/id955374646?l=en&mt=8">啊哩咕哩iOS客户端</a>的开发、发布与维护工作。
+      </div>
+      项目主要功能描述：
+      <div class="conten-item"> 啊哩咕哩app是一款与硬件相关的IM类应用。主要用于与公司生产的老人机、儿童机、智能手表、智能挂钟等进行交互。</div>
+          <ol>
+              <li class="conten-item">登录。包括注册、忘记密码、登录。</li>
+              <li class="conten-item">主页。展示app所添加（关注）的设备的主要信息，如头像、名称、电量、当前位置、历史足迹、电子围栏等。可以远程设置所关注的设备的信息，如音量、时间、电话本、SOS。</li>
+              <li class="conten-item">口信。可发送文本信息和语音信息，进行即时聊天。</li>
+              <li class="conten-item">设置。包括个人设置、添加/取消关注设备、备注、修改密码等功能。</li>
+          </ol>
+      </div>
+
+      <div class="content-text">
+      <div class="conten-item-title">☆	2014年3月—2014年 8月</div>
+      <div class="conten-item">在深圳汇费通公司担任iOS开发工程师，参与及负责<a href="https://itunes.apple.com/cn/app/hui-fei-tong/id675001481?mt=8">汇费通iOS客户端</a>的需求分析、软件开发及维护、appSotre发布。</div>
+      <div class="conten-item">项目描述：</div>
+          <ol>
+             <li class="conten-item">登录。登录界面有注册、忘记密码、记住密码、自动登录、登录功能。</li>
+             <li class="conten-item">主页。包括：</li>
+                <ul class="sub-content-item">
+                    <li class="conten-item">缴费功能。登录成功后，进入首页，有水、电、煤、数字电视、游戏点卡、手机/固话 、宽带的缴费功能。</li>
+                    <li class="conten-item">签到。可获取积分。</li>
+                    <li class="conten-item">短信。可预设要发送的短信。</li>
+                    <li class="conten-item">彩票。</li>
+                    <li class="conten-item">机票预订。</li>
+                    <li class="conten-item">扫码功能。可以扫描普通的二维码，也可以用于支付功能。</li>
+                    <li class="conten-item">人人物流。一个3公里商业圈的功能模块。</li>
+                </ul>
+            <li class="conten-item">交易管理。查询历史交易数据，有饼状图及线性图表现形式。可以机票进行取消、支付操作。</li>
+            <li class="conten-item">设置。一些个人信息及app的设置。</li>
+            <li class="conten-item">更多。公司信息、版本信息、更新功能等。</li>
+          </ol>
+    </div>
+
+      <div class="content-text">
+      <div class="conten-item-title">☆ 2012年6月—2014年2月</div>
+      <div class="conten-item">在深圳同为数码科技股份有限公司担任iOS软件工程师，参与到项目的设计、实现、修改，为公司研发的各种安防产品，包括板卡、dvr2、dvr3、IPCamera、车载设备开发iOS客户端。
+          <ul>
+              <li><a href="https://itunes.apple.com/us/app/superlivepro/id447744743?mt=8">Superlivepro</a></li>
+              <li><a href="https://itunes.apple.com/cn/app/superlive/id451084162?mt=8">Superlive</a></li>
+              <li><a href="https://itunes.apple.com/cn/app/superclient/id511833977?mt=8">SuperClient</a></li>
+              <li><a href="https://itunes.apple.com/cn/app/superclientm/id528167149?mt=8">SuperClientM</a></li>
+              <li><a href="https://itunes.apple.com/cn/app/superlivehd/id447744663?mt=8">SuperLiveHD</a></li>
+              <li><a href="https://itunes.apple.com/cn/app/supercms/id526656317?mt=8">SuperCMS</a></li>
+          </ul>
+          等，其中最有代表性的作品是superlivepro，简单介绍其功能，如下：</div>
+            <ol>
+                <li class="conten-item">登录。通过http协议获取相关的设备信息，用NSStream实现连接功能。</li>
+                <li class="conten-item">现场监控。登陆成功之后，请求默认的通道现场图像。基本上可以实现D1四路实时监控。用户可以根据需要，最多同时监控16路通道。在监控过程中，可以同时进行音频接收、对讲、现场拍照、现场录像功能。可以对设备的画面进行颜色配置。</li>
+                <li class="conten-item">云台控制功能。</li>
+                <li class="conten-item">报警功能，包括声音报警和文字信息报警。</li>
+                <li class="conten-item">查看现场抓到的图片。</li>
+                <li class="conten-item">录像回放。包括本地录像、远程录像回放。</li>
+                <li class="conten-item">设备列表。可以对多个设备进行增、删、改操作。</li>
+                <li class="conten-item">信息功能。包括远程设备信息、手机/平板基本信息、app信息及设备的当前用户信息。</li>
+                <li class="conten-item">远程配置功能。可以利用app直接设置远程设备的各项参数。</li>
+                <li class="conten-item">CMS功能。集中控制管理多个设备。</li>
+                <li class="conten-item">喜爱通道功能。用户可以把多个设备的多个通道分组，实现快速查看。</li>
+            </ol>
+
+      <div class="conten-item">在此期间，比较突出的工作包括：</div>
+          <ul>
+              <li class="conten-item">各项新功能开发。</li>
+              <li class="conten-item">CMS版本的开发。</li>
+              <li class="conten-item">利用OpenGL ES 2.0优化了软件性能，实现实时监控。</li>
+              <li class="conten-item">优化程序内存，提高软件性能。</li>
+              <li class="conten-item">指导协助新同事进行工作。</li>
+          </ul>
+
+      </div>
   </div>
-
+  </div>
 
   <script src="../thirdParty/jquery-3.1.1.js"></script>
   <script src="../thirdParty/bootstrap/js/bootstrap.min.js"></script>
